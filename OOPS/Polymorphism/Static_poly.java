@@ -44,10 +44,12 @@ class Student{
         this.year = year;
     }
 
+    // By default fees 
     public float computeFees(){
         return Student.annualFees * this.year;
     }
     
+    // If we want to change the fees 
     public float computeFees(int annualFees){
         return annualFees * this.year;
     }

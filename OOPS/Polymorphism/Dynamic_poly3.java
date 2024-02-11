@@ -1,4 +1,16 @@
-public class Abstract{
+/*
+ * Abstract 
+ * here we created a person class and the professor class 
+ * professor and student are 2 different preson's 
+ * 
+ * In prof. class we have there name, Empolyee number and salary
+ * 
+ * but person class just have the name in it so we used it as a parent class 
+ * we extend the student and give the super(name) in it 
+ * same for the prof. class
+ */
+
+public class Dynamic_poly3{
     public static void main(String[] args){
         Student3 s1 = new Student3("SANJEET", 2);
 
@@ -16,11 +28,7 @@ public class Abstract{
             System.out.println(person.getDetails());
         }
     }
-    // public static void printDetails(Student3[] students2){
-    //     for(Student3 student : students2){
-    //         System.out.println(student.getDetails());
-    //     }
-    // }
+
 }
 class person{
     protected final String name;
@@ -30,7 +38,7 @@ class person{
     }
 
     public String getDetails() {
-        return "\nno dataa";
+        return "\nno data";
     }   
 }
 
